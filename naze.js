@@ -2903,7 +2903,6 @@ let alfamart = `6281333782061@s.whatsapp.net`
             break
             case 'menu': {
             let ownernya = ownernomer + '@s.whatsapp.net'
-            let botnya = botnomer+ '@s.whatsapp.net'
             let me = m.sender
             let jawab = `*${ucapanWaktu}*
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
