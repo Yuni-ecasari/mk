@@ -1782,9 +1782,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 	        await fs.unlinkSync(awikwok)
             }
 	       break     
-	        case 'simih': case 'simisimi': {
+	        case 'simih': case 'simisimi': case 'simi': {
             if (!text) throw `Example : ${prefix + command} text`
-            hm = await fetchJson(api('zenz', '/api/simisimi', { text : text }, 'zenz'))
+            hm = await fetchJson(api('zenz', '/entertainment/simisimi', { text : text }, 'zenz'))
             m.reply(hm.result.message)
             }
             break
